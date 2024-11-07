@@ -3,13 +3,13 @@
 <p align="center">
   Fetches the Astronomy Picture of the Day (APOD) from NASA's API and displays it with details.
   <br />
-  <a href="https://nasa-apod-viewer-demo.netlify.app/">View Demo</a>
+  <a href="https://nasa-apod-api-page.netlify.app/">View Demo</a>
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![APOD Screenshot](https://github.com/username/nasa-apod-viewer/blob/main/screenshot.png?raw=true)
+![APOD Screenshot](https://github.com/bengera/apod-api/blob/master/screenshot.PNG?raw=true)
 
 This app fetches NASA's Astronomy Picture of the Day (APOD) and displays it along with information such as the title, explanation, and date. Users can explore a new astronomy-related image or video each day with accompanying educational details provided by NASA.
 
