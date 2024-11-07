@@ -6,7 +6,7 @@ const heading = document.querySelector('.heading');
 
 const getImage = function(){
     return new Promise(function(resolve, reject){
-        fetch('https://api.nasa.gov/planetary/apod?api_key=jXbNGXKLCfz4KjuUikeHoDOXlAbKoApEXgGKsKH2')
+        fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
         .then(res =>{
             console.log(res);
             if(!res.ok){
