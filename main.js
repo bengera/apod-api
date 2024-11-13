@@ -8,15 +8,14 @@ const getImage = function(){
     return new Promise(function(resolve, reject){
         fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
         .then(res =>{
-            console.log(res);
+            
             if(!res.ok){
                 reject(new Error('Data not found'))
                 return
             }
             return res.json();
         }).then(data => {
-            console.log(data);
-            resolve(data);
+             resolve(data);
         }).catch((err) => console.log(`${err}`))
     })
 }
@@ -25,7 +24,7 @@ const getImage = function(){
 
 getImage()
 .then((data)=>{
-    console.log(`${data.date}:This is ${data.title}, ${data.copyright}`)
+    
     explanationText.textContent = data.explanation;
     heading.textContent = data.title
     const apodimg = `${data.url}`
